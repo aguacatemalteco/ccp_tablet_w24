@@ -147,9 +147,9 @@ footer {
     box-shadow: 0 5px 0 #ceffec;
     color: #ffffff;
     cursor: pointer;
-    margin: 1% 0;
+    margin: 2% 0;
     padding: 12px 20px;
-    width: 94%;
+    width: 80%;
     transition: all .1s linear;
     font-family: Verdana, Arial, Times, sans-serif;
     text-decoration: none;
