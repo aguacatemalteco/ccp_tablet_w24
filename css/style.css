@@ -411,7 +411,38 @@ footer {
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
-    *{
-        animation: none;
+    a.skip {
+        position: absolute;
+        top: -40px;
+        padding: 6px;
+        font-size: 150%;
+        color: #ffffff;
+        background-color: #320e3b;
+        z-index: 1;
+    }
+
+    a.skip:focus {
+        position: absolute;
+        top: 20px;
+    }
+
+    .jump {
+        border: 0;
+        background: #320e3b;
+        border-radius: 4px;
+        box-shadow: 0 5px 0 #ceffec;
+        color: #ffffff;
+        cursor: pointer;
+        margin: 1% 0;
+        padding: 12px 20px;
+        width: 94%;
+        font-family: Verdana, Arial, Times, sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        text-align: center;
+      }
+    
+    .jump:active {
+        box-shadow: 0 5px 0 #ceffec;
     }
 }
